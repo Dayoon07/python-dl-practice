@@ -1,7 +1,7 @@
 # pip install tensorflow==2.12.0
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras.layers import Input, Embedding, Dense, MultiHeadAttention, LayerNormalization, Dropout
+from keras.layers import Input, Embedding, Dense, MultiHeadAttention, LayerNormalization, Dropout
 import numpy as np
 
 # 1. Transformer 블록 정의
